@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 5px;
+            border: double;
+            border-radius: 5px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+    </style>
+
+</head>
+<body>
+    <script>
+
+    </script>
+
+    <h1>JavaScript Can Change HTML Attribute Values</h1>
+    <p>In this example JavaScript changes the value of the src (source) attribute of an <img> tag:</p>
+    
+    <img id="bulb" src="bulboff.png" width="500px" alt="">
+    
+    <button id="bulb" onclick="document.getElementById('bulb').src='bulboff.png'">Turn Off</button>
+    <button onclick="document.getElementById('bulb').src='bulbon.png'">Turn On</button>
+    <br>
+<br>
+<br>
+
+
+ <p id="font">JavaScript can change the style of an HTML element.</p>
+ <button onclick="document.getElementById('font').style.fontSize='35px'">Large Text</button>
+ <button onclick="document.getElementById('font').style.fontSize='14px'">Small Text</button>
+ <br>
+ <br>
+<p id="hide">JavaScript can hide HTML elements.</p>
+<button onclick="document.getElementById('hide').style.display='none'">Hide Me</button>
+<button onclick="document.getElementById('hide').style.display=('block')">Show Me</button>
+<br>
+<br>
+<br>
+
+</body>
+</html>
